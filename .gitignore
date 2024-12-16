@@ -1,0 +1,43 @@
+# Maven build directory
+target/
+*.jar
+*.war
+*.ear
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Java compiled files
+*.class
+*.jks
+*.~class
+
+# Maven Wrapper files
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# OS-specific system files
+.DS_Store          # macOS
+Thumbs.db          # Windows thumbnail cache
+ehthumbs.db        # Windows additional thumbnail cache
+desktop.ini        # Windows desktop configuration
+
+# Git ignore for macOS and Linux
+.AppleDouble
+.LSOverride
+._*
