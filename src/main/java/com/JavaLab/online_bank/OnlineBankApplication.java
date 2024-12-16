@@ -79,10 +79,9 @@ public class OnlineBankApplication implements CommandLineRunner {
 		}
 
 		// Добавляем банкоматы
-// Добавляем банкоматы
 		for (BankOffice office : offices) {
 			atmService.create(new BankAtm(
-					"ATM 1",                       // name
+					"ATM 1",                 // name
 					office.getAddress(),           // address
 					true,                          // isOperational
 					true,                          // supportsWithdrawals
@@ -92,7 +91,6 @@ public class OnlineBankApplication implements CommandLineRunner {
 			));
 		}
 
-		// Финальное сообщение
 		System.out.println("Setup Complete.");
 	}
 }
