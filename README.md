@@ -15,13 +15,6 @@
 
 
 
-![image](https://github.com/user-attachments/assets/a4ea974e-70bd-4080-bb30-8971b7a90ad6)
-
-
-
-
-![image](https://github.com/user-attachments/assets/e1384e1d-6330-4698-b70c-b2a96172685a)
-
 
 
 
